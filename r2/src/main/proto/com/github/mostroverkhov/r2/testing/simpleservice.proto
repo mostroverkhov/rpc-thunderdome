@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package com.github.mostroverkhov.r2.testing;
+
+option java_package = "com.github.mostroverkhov.r2.testing";
+option java_outer_classname = "SimpleServiceProto";
+option java_multiple_files = true;
+
+message SimpleRequest {
+  string requestMessage = 1;
+}
+
+message SimpleResponse {
+  string responseMessage = 1;
+}
